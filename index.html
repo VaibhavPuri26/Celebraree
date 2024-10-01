@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Whiteboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button id="undo">↶ undo</button>
+        <button id="redo">↷ redo</button>
+    </div>
+    <div class="whiteboard" id="whiteboard"></div>
+    <div class="controls">
+        <button id="addText">T Add Text</button>
+        <select id="fontFamily">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Times New Roman">Times New Roman</option>
+        </select>
+        <input type="number" id="fontSize" value="16" min="10" max="100">
+        <button id="bold"><strong>B</strong></button>
+        <button id="italic"><em>I</em></button>
+        <button id="underline"><u>U</u></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
