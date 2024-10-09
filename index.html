@@ -11,7 +11,14 @@
         <button id="undo">↶ undo</button>
         <button id="redo">↷ redo</button>
     </div>
-    <div class="whiteboard" id="whiteboard"></div>
+    <div class="image-container-wrapper">
+        <button id="prevSlide" class="slide-button">◀</button>
+        <div class="image-container">
+            <img id="backgroundImage" src="uploads/Image2.jpeg" alt="Background Image">
+            <div class="text-box predefined" contentEditable="true" style="top: 50px; left: 50px;">Hello World</div>
+        </div>
+        <button id="nextSlide" class="slide-button">▶</button>
+    </div>
     <div class="controls">
         <button id="addText">T Add Text</button>
         <select id="fontFamily">
