@@ -15,7 +15,6 @@
         <button id="prevSlide" class="slide-button">◀</button>
         <div class="image-container">
             <img id="backgroundImage" src="uploads/Image2.jpeg" alt="Background Image">
-            <div class="text-box predefined" contentEditable="true" style="top: 50px; left: 50px;">Hello World</div>
         </div>
         <button id="nextSlide" class="slide-button">▶</button>
     </div>
@@ -25,12 +24,16 @@
             <option value="Arial">Arial</option>
             <option value="Verdana">Verdana</option>
             <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
         </select>
         <input type="number" id="fontSize" value="16" min="10" max="100">
         <button id="bold"><strong>B</strong></button>
         <button id="italic"><em>I</em></button>
         <button id="underline"><u>U</u></button>
+        <input type="color" id="textColor" value="#000000">
     </div>
+    <button id="shuffleButton">Reorder Images</button>
     <script src="script.js"></script>
 </body>
 </html>
